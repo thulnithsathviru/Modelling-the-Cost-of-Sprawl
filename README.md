@@ -335,7 +335,11 @@ while ABM–CA shifts growth to more behaviorally plausible zones — reflecting
 
 ## ✍️ Author
 
-**Developed by:** Thulnith  
+**Developed by:**
+1. Thulnith Sathviru
+2. Visva Devmini
+3. Thirasari Perera+
+
 **Project:** Spatial Modelling – Cost of Sprawl  
 **Institution:** *University of Moratuwa*  
 **Year:** 2025
