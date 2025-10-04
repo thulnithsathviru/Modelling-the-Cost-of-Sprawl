@@ -1,0 +1,26 @@
+{
+  "start_year": 2010,
+  "end_year": 2020,
+  "start_urban_path": "data/aligned/2010/urban_2010_aligned.tif",
+  "suitability_path": "outputs/suitability_ml_lgbm/suitability_2010.tif",
+  "mask_path": "data/aligned/static/mask_restricted_aligned.tif",
+  "observed_change_path": "data/aligned/change_2010_2020_aligned.tif",
+  "dist_roads": "data/aligned/static/dist_roads_aligned.tif",
+  "dist_cbds": "data/aligned/static/dist_cbds_aligned.tif",
+  "land_price": "data/aligned/static/land_price_aligned.tif",
+
+  "a": 1.0,
+  "b": 0.6,
+  "c": 0.0,
+  "temperature": 1.0,
+  "neighborhood_size": 3,
+
+  "w_road": 0.5,
+  "w_land": 0.5,
+  "w_s": 0.5,
+  "w_d": 0.3,
+  "w_e": 0.2,
+
+  "save_yearly": true,
+  "run_name": "ABM_TEST"
+}

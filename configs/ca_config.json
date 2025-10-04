@@ -1,0 +1,32 @@
+{
+  "start_year": 2000,
+  "end_year": 2010,
+
+  "start_urban_path": "data/aligned/2000/urban_2000_aligned.tif",
+  "suitability_path": "outputs/suitability_ml_lgbm/suitability_2000.tif",
+  "mask_path": "data/aligned/static/mask_restricted_aligned.tif",
+  "observed_change_path": "data/aligned/change_2000_2010_aligned.tif",
+
+  "a": 1.0,
+  "b": 0.6,
+  "c": 0.0,
+  "temperature": 1.0,
+  "neighborhood_size": 5,
+
+  "kernel_mode": "anisotropic",
+  "anisotropy_axis": "ew",
+  "anisotropy_strength": 2.5,
+
+  "conversion_rule": "area_match_hybrid",
+  "hybrid_area_min_prob": 0.35,
+  "p_thresh": 0.5,
+
+  "stochastic_threshold": true,
+  "stochastic_area_match": true,
+  "random_seed": 42,
+
+  "save_yearly": true,
+  "save_prob_yearly": false,
+
+  "run_name": "calib_2000_2010_aniso_hybrid"
+}

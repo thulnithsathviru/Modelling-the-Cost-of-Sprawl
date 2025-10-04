@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy
+scipy
+pandas
+matplotlib
+
+# Rasters & vectors
+rasterio
+geopandas
+shapely
+fiona
+
+# Spatial analysis / raster math
+pyproj
+rasterstats
+
+# Optional helpers
+tqdm        # nice progress bars for loops
+seaborn     # prettier plots (optional)
+
+scikit-learn
+optuna

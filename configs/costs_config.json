@@ -1,0 +1,8 @@
+{
+  "road_cost_per_km": 12000000,
+  "service_cost_per_person": 250000,
+  "tax_revenue_per_person": 180000,
+  "env_cost_per_ndvi": 50000,
+  "area_per_cell_perches": 16
+}
+
